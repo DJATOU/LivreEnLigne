@@ -9,6 +9,7 @@ import ecole.bookStore.onlineBookstore.entity.BookCategory;
 
 
 @RepositoryRestResource(collectionResourceRel="bookCateogry", path="book-category")
+@CrossOrigin("*")
 public interface BookCategoryRepository extends JpaRepository<BookCategory, Long>{
 
 }
