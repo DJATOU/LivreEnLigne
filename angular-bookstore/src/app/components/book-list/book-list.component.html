@@ -1,4 +1,4 @@
-<table border="1">
+<table border="1" class="table">
     <thead>
         <tr>
             <th>Images</th>
@@ -10,7 +10,7 @@
     <tbody>
         <tr *ngFor="let b of books">
             <td>
-                <img [src]="b.imageUrl" height="200">
+                <img [src]="b.imageUrl" height="70">
             </td>
             <td>{{b.name}}</td>
             <td>{{b.description}}</td>
